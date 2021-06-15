@@ -1,0 +1,20 @@
+@startuml
+
+package sample <<Folder>>{
+package memento <<Folder>>{
+class CareTaker
+class Memento
+class Originator
+}
+package nodes <<Folder>>{
+abstract class Node
+class Begin extends Node
+class Operation extends Node
+class Solution extends Node
+}
+class Main extends javafx.application.Application
+class Controller implements javafx.fxml.Initializable
+}
+
+
+@enduml
